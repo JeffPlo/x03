@@ -1,0 +1,33 @@
+$dusty-gray: #999;
+
+li {
+  .wp-menu-image:before {
+    opacity: 0.6;
+  }
+
+  &:hover {
+    .wp-menu-image:before {
+      color: $dusty-gray !important;
+      opacity: 0.1;
+    }
+  }
+}
+
+#postimagediv .inside img {
+  width: 100%;
+}
+
+.column-featured_image {
+  width: 10%;
+
+  img {
+    width: auto;
+    height: 100%;
+    max-height: 50px;
+    transition: transform 0.3s;
+
+    &:hover {
+      transform: scale(4);
+    }
+  }
+}

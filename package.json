@@ -1,0 +1,29 @@
+{
+  "name": "Bambee",
+  "version": "2.4.0",
+  "description": "Boilerplate for WordPress theme developement.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MBV-Media/Bambee-WordPress-Theme"
+  },
+  "keywords": [
+    "WordPress",
+    "PHP",
+    "HTML5",
+    "CSS3",
+    "SASS",
+    "JavaScript",
+    "CoffeeScript",
+    "foundation",
+    "gulp",
+    "composer",
+    "bower"
+  ],
+  "author": "MBV-Media <info@mbv-media.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bambee-gulp": "^1.2.0",
+    "gulp": "^3.9.1",
+    "gulp-cli": "^1.4.0"
+  }
+}
