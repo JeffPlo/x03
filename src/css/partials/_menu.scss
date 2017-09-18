@@ -33,3 +33,11 @@
   top: rem-calc(15);
   right: rem-calc(15);
 }
+
+.footer-nav {
+  float: right;
+
+  li {
+    display: block;
+  }
+}

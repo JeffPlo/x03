@@ -39,6 +39,8 @@ class CustomWebsite extends BambeeWebsite {
      */
     public function addFilters() {
         parent::addFilters();
+
+	    add_filter( 'nav_menu_link_attributes', array( $this, 'menuItemAddAttributes'), 10, 3 );
     }
 
     /**
@@ -58,4 +60,15 @@ class CustomWebsite extends BambeeWebsite {
         $bambeeWebsite->addScripts();
         $bambeeWebsite->addStyles();
     }
+
+	/**
+	 * Custom Nav Menu Class For Page ID
+	 */
+	public function menuItemAddAttributes( $atts, $item, $args ) {
+		if( isset( $item->object_id ) ) {
+			$atts['data-page-id'] = $item->object_id;
+		}
+
+		return $atts;
+	}
 }

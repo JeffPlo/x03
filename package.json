@@ -1,10 +1,10 @@
 {
-  "name": "Bambee",
+  "name": "x03",
   "version": "2.4.0",
   "description": "Boilerplate for WordPress theme developement.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/MBV-Media/Bambee-WordPress-Theme"
+    "url": "https://github.com/JeffPlo/x03.git"
   },
   "keywords": [
     "WordPress",
