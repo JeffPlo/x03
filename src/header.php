@@ -42,6 +42,9 @@ $short_lang = $short_lang[0];
 <script>
     jQuery('body').removeClass('no-js');
 </script>
+<div class="background">
+    <?php echo do_shortcode( '[rev_slider alias="background"]' ); ?>
+</div>
 <div class="wrapper">
     <header class="header-main" role="banner" style="background-image: url('<?php header_image(); ?>')">
 
